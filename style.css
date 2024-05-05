@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+
+}
+.container{
+    background-color: #2c3e50;
+    height: 300px;
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    flex-direction: column;
+
+}
+.svetafor{
+    background-color: rgba(168, 159, 159, 0.3);
+    width: 60%;
+    height: 25%;
+    border-radius: 50%;
+
+}
+.svetafor.red{
+    background-color: red;
+    box-shadow: 0 0 25px red;
+}
+.svetafor.yellow{
+    background-color: yellow;
+    box-shadow: 0 0 25px yellow;
+}
+.svetafor.green{
+    background-color: green;
+    box-shadow: 0 0 25px green;
+}
